@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../Image/bg-repeat.jpg);
+
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 80px;
+
+}
+
+.container .conteudo {
+    width: 700px;
+
+}
+
+.container .conteudo .titulo {
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container .conteudo .text {
+    width: 300px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.container .inputs {
+    background-color: #fff;
+    width: 340px;
+    height: 400px;
+    border-radius: 10px;
+
+
+}
+
+input {
+    display: block;
+    margin-top: 20px;
+    width: 298px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+
+}
+
+.container .inputs .area {
+    width: 298.013px;
+    height: 100px;
+    margin: 20px 20px 0 20px;
+    border-radius: 5px;
+
+}
+
+.container .inputs p {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.container .inputs #btn {
+    text-align: center;
+    width: 298.013px;
+    height: 41.129px;
+    display: block;
+    margin: 20px;
+    color: #ffffff;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+.container .inputs #btn:hover {
+    background-color: #04f782;
+    transform: scale(1.1);
+
+}
+
+.erro {
+    border: 2px solid red;
+}
+
+
+.preenchido {
+    border: 2px solid rgb(11, 235, 11);
+}
+.menssagem-erro{
+    color: red;
+}

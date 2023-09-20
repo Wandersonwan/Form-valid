@@ -1,0 +1,42 @@
+@media(max-width: 650px) {
+
+    .container {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container .conteudo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+
+}
+
+@media(max-width: 380px) {
+    .container .inputs {
+        width: 280px;
+
+    }
+
+    input {
+        width: 250px;
+
+    }
+
+    .container .inputs .area {
+        width: 250px;
+        display: block;
+        margin: 15px auto;
+    }
+        .container .inputs #btn{
+            width: 230px;
+            margin: auto;
+        }
+
+}
